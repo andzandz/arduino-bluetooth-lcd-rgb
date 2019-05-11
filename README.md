@@ -6,6 +6,8 @@ Circuit: Breadboard, wires, Arduino Nano, 2004 LCD screen, 10kΩ potentiometer, 
 
 The PL9823 is Neopixel-compatible. You will need to install the Neopixel library: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
 
+To connect the LCD screen correctly, see the tutorial over at Arduino.cc: https://www.arduino.cc/en/Tutorial/HelloWorld (I have changed the pin numbers used, read the code...)
+
 The HC-05 TX pin on the left is connected to the Arduino's RX pin; it acts as a 9600 baud serial port.
 
 For the Android part, install one of the HC-05 controller apps on your phone. This one seems nice: https://play.google.com/store/apps/details?id=com.mightyit.gops.bluetoothcontroller
